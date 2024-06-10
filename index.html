@@ -32,7 +32,16 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="" alt="" />
+        <img id="waddles" src="./assets/waddles.jpg"/>
+        <audio id="fart" src="./assets/fart.mp3"/>
+
+        <script>
+          waddles.addEventListener("click", piggie);
+          function piggie() {
+            var audio = document.getElementById("fart");
+              audio.play();
+          }
+        </script>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, and Welcome to</p>
