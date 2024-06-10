@@ -314,6 +314,17 @@ section {
   margin: auto 0;
 }
 
+#timer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 95%;
+}
+
+#demo {
+  text-align: center;
+  font-size: 20px; 
+}
+
 /* Hobbies SECTION */
 
 #hobbies {
