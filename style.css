@@ -423,7 +423,9 @@ article .icon {
 /* FARTNITE SECTION */
 
 .video-container {
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 /* FOOTER SECTION */
