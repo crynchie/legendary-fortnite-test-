@@ -160,7 +160,14 @@ h1, h2, h3, h4, h5, h6,
   color: #000; }
 
 .content {
-  padding: 7rem 0; }
+  padding: 7rem 1rem;
+  margin: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
 h2 {
   font-size: 3.5rem;
@@ -173,7 +180,13 @@ h3 {
 .form-control {
   border: none;
   border: 1px solid #d9d9d9;
-  border-radius: 0; }
+  border-radius: 0;
+  padding:10px;
+}
+
+.form-group {
+    margin-bottom: 1rem;}
+
   .form-control:active, .form-control:focus {
     outline: none;
     -webkit-box-shadow: none;
