@@ -437,3 +437,8 @@ footer p {
 @keyframes typing {
   from { width: 0}
 }
+
+.video-container {
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
