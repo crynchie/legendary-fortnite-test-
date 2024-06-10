@@ -156,24 +156,17 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Poppins", sans-serif;
   color: #000; }
 
-a-contact {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  a, a:hover {
-    text-decoration: none !important; }
-
 .text-black {
   color: #000; }
 
-.content-contact {
+.content {
   padding: 7rem 0; }
 
-h2-contact {
+h2 {
   font-size: 3.5rem;
   font-weight: 700; }
 
-h3-contact {
+h3 {
   font-size: 2rem;
   font-weight: 700; }
 
