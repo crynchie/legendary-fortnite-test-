@@ -420,6 +420,46 @@ article .icon {
   height: 2.5rem;
 }
 
+/* CONTACT FORM */
+
+#contact-form .form-group { 
+  margin-bottom: 20px; 
+} 
+
+#contact-form label { 
+  display: block; 
+  margin-bottom: 5px; 
+} 
+
+#contact-form input,  
+
+#contact-form textarea { 
+  width: 100%; 
+  padding: 10px; 
+  border: 1px #ddd solid; 
+} 
+
+#contact-form textarea { 
+  height: 200px; 
+} 
+
+#contact-form input:focus,  
+
+#contact-form textarea:focus { 
+  outline: none; 
+  border-color: #008080; 
+} 
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+}
+
 /* FOOTER SECTION */
 
 footer {
